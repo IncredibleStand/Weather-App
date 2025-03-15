@@ -1,0 +1,95 @@
+body {
+  font-family: system-ui, Arial, Merriweather;
+  padding-top: 50px;
+  transition: background-color 0.5s ease;
+}
+
+/* Weather-specific backgrounds */
+.clear {
+  background-color: #f0e68c; /* Light yellow for clear skies (sunny) */
+}
+
+.clear:hover {
+  background-color: #f4e07d; /* Slightly darker yellow for hover effect */
+}
+
+.clouds {
+  background-color: #b0c4de; /* Light steel blue for cloudy skies */
+}
+
+.clouds:hover {
+  background-color: #a0b0c8; /* Slightly darker steel blue for hover effect */
+}
+
+.rain {
+  background-color: #4682b4; /* Steel blue for rain */
+}
+
+.rain:hover {
+  background-color: #5a6c8d; /* Darker steel blue for hover effect */
+}
+
+.snow {
+  background-color: #b0e0e6; /* Powder blue for snow */
+}
+
+.snow:hover {
+  background-color: #a0c9d6; /* Slightly darker powder blue for hover effect */
+}
+
+.smoke {
+  background-color: #708090; /* Slate gray for smoke */
+}
+
+.smoke:hover {
+  background-color: #606c75; /* Slightly darker slate gray for hover effect */
+}
+
+.thunderstorm {
+  background-color: #2f4f4f; /* Dark slate gray for thunderstorms */
+}
+
+.thunderstorm:hover {
+  background-color: #3b5353; /* Slightly lighter dark slate gray for hover effect */
+}
+
+.mist {
+  background-color: #dcdcdc; /* Gainsboro (lighter gray) for mist */
+}
+
+.mist:hover {
+  background-color: #c5c5c5; /* Slightly darker gray for hover effect */
+}
+
+/* Card styling */
+.card {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px); /* Slight lift effect */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
+}
+
+.card-body {
+  padding: 20px;
+}
+
+/* Emoji styling */
+#weather-emoji {
+  font-size: 2rem;
+  transition: transform 0.3s ease;
+}
+
+#weather-emoji:hover {
+  transform: scale(1.2); /* Slight zoom-in effect */
+}
+
+/* Error message */
+.alert-danger {
+  margin-top: 10px;
+}
